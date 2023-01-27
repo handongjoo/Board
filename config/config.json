@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "gksehdwn123",
-    "database": "board",
+    "database": "Board",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

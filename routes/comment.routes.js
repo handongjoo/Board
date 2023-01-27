@@ -10,4 +10,4 @@ router.patch('/comments/:id', async (req, res) => {})
 // 댓글 삭제
 router.delete('/comments/:id', async (req, res) => {})
 
-module.exports = commentRouter
+module.exports = router

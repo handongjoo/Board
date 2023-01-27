@@ -10,4 +10,4 @@ router.patch('/posts/:id', async (req, res) => {})
 // 게시글 삭제
 router.delete('/posts/:id', async (req, res) => {})
 
-module.exports = postRouter
+module.exports = router

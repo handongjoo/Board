@@ -1,6 +1,11 @@
 const express = require("express")
-const userRouter = require("./src/routes/user.routes")
+const userRouter = require("./routes/user.routes")
+const postRouter = require("./routes/post.routes")
+const commentRouter = require("./routes/comment.routes")
 const app = express();
+
+app.use(express.json())
+app.use('/', [userRouter, postRouter, commentRouter])
 
 require("dotenv").config()
 const PORT = process.env.PORT
